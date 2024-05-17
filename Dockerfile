@@ -1,5 +1,4 @@
-FROM openjdk:10-jre-slim
-
+FROM eclipse-temurin:17
 WORKDIR /opt/Lavalink
 
 COPY Lavalink.jar Lavalink.jar
